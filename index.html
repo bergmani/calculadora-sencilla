@@ -3,36 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./calculator.js" async defer></script>
-    <link rel="stylesheet" href="./calculator.css">
+    <script src="./scripts/calculator.js" async defer></script>
+    <link rel="stylesheet" href="./styles/calculator.css">
     <title>Calculadora</title>
 </head>
 <body>
-    <div class="calculator"></div>
-        <h1>Calculadora</h1>
-        <div class="container">
-                <label for="firstNumber">Ingresa el primer número</label>
-                <input type="number" class="data" id="firstNumber">
-                <label for="secondNumber">Ingresa el segundo número </label>
-                <input type="number" class="data" id="secondNumber">
+    <h1>Calculadora</h1>
+    <div class="container">
+            <label for="firstNumber">Ingresa el primer número</label>
+            <input type="number" class="data" id="firstNumber">
+            <label for="secondNumber">Ingresa el segundo número </label>
+            <input type="number" class="data" id="secondNumber">
 
-                <p>¿Qué operación realizarás?</p>
-                <div id="buttons">
-                    <button class="btn" id="add">+</button>
-                    <button class="btn" id="substract">-</button>
-                    <button class="btn" id="multiplicate">x</button>
-                    <button class="btn" id="divide">÷</button>
+            <p>¿Qué operación realizarás?</p>
+            <div id="buttons">
+                <button class="btn" id="add">+</button>
+                <button class="btn" id="substract">-</button>
+                <button class="btn" id="multiplicate">x</button>
+                <button class="btn" id="divide">÷</button>
 
-                <p class="finalResult"></p>
-        </div>
-    </div>
-
-    <div class="timer">
-        <label for="setTime" id="label">Ingresar segundos del temporizador</label>
-        <input type="number"  value="0" min="0" id="timeInput" >
-            
-        <button class="btn" id="timerStart">Go</button>
-        <p id="timerScreen"></p>
+            <p class="finalResult"></p>
     </div>
 </body>
 </html>
